@@ -115,7 +115,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 .opacity{
   opacity: 0.5;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="v1" tags="" position="335.5,333.5" size="100,100">&lt;h1&gt;Van stad tot wereldrijk&lt;/h1&gt;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="v1" tags="" position="334.5,334.5" size="100,100">&lt;h1&gt;Van stad tot wereldrijk&lt;/h1&gt;
 Vul hier je naam in: &lt;&lt;textbox &quot;$naam&quot; &quot;&quot;&gt;&gt;
 
 &lt;h2&gt;De mythe van Romulus en Remus&lt;/h2&gt;
@@ -128,7 +128,7 @@ Wie zijn volgens de mythe de stichters van Rome? Dat zijn Romulus en &lt;&lt;tex
 &lt;&lt;set $fout = 0&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="2" name="v2" tags="" position="173.5,479.4090881347656" size="100,100">&lt;&lt;if $remus === &quot;Remus&quot;&gt;&gt;
+</tw-passagedata><tw-passagedata pid="2" name="v2" tags="" position="172.5,480.4090881347656" size="100,100">&lt;&lt;if $remus === &quot;Remus&quot;&gt;&gt;
 Wie zijn volgens de mythe de stichters van Rome? Dat zijn Romulus en $remus.
 &lt;h2&gt;De Romeinse republiek&lt;/h2&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Maccari-Cicero.jpg/600px-Maccari-Cicero.jpg&quot;&gt;
@@ -151,7 +151,7 @@ Helaas, $naam. Dat was niet goed. Probeer het [[opnieuw|v1]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="3" name="v3" tags="" position="349.5,480.5" size="100,100">&lt;&lt;if $monarchie === &quot;koning&quot; or $monarchie === &quot;vorst&quot;&gt;&gt;
+</tw-passagedata><tw-passagedata pid="3" name="v3" tags="" position="348.5,481.5" size="100,100">&lt;&lt;if $monarchie.includes(&quot;oning&quot;) or $monarchie.includes(&quot;orst&quot;) or $monarchie.includes(&quot;onarch&quot;)&gt;&gt;
 &lt;h2&gt;De Romeinse republiek&lt;/h2&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Maccari-Cicero.jpg/600px-Maccari-Cicero.jpg&quot;&gt;
 
@@ -165,7 +165,7 @@ Dat waren de &lt;&lt;textbox &quot;$senatoren&quot; &quot;&quot; &quot;v4&quot;&
 &lt;&lt;else&gt;&gt;
 Helaas. Dat is niet goed. Probeer het [[opnieuw|v2]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="v4" tags="" position="486.5,483.5" size="100,100">&lt;&lt;if $senatoren.includes(&quot;sena&quot;) or $senatoren.includes(&quot;rijk&quot;)&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="v4" tags="" position="485.5,484.5" size="100,100">&lt;&lt;if $senatoren.includes(&quot;sena&quot;) or $senatoren.includes(&quot;rijk&quot;)&gt;&gt;
 &lt;h2&gt;De Romeinse republiek&lt;/h2&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Maccari-Cicero.jpg/600px-Maccari-Cicero.jpg&quot;&gt;
 
@@ -185,7 +185,7 @@ Ook de macht van de senaat was niet eeuwig. Caesar nam de macht over. Hoe deed h
 &lt;&lt;else&gt;&gt;
 Helaas. Dat is niet goed. Probeer het [[opnieuw|v3]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="v5" tags="" position="486.5,632.5" size="100,100">&lt;&lt;if $caesar === 0&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="v5" tags="" position="485.5,633.5" size="100,100">&lt;&lt;if $caesar === 0&gt;&gt;
 Helaas. Probeer het [[opnieuw|v4]]. Tip: Waar kwamen deze twee vandaan?
 &lt;img src=&quot;http://gb.asterix.com/missive2/images/l85-11.gif&quot;&gt;&lt;&lt;set $fout = $fout + 1&gt;&gt;
 &lt;&lt;else&gt;&gt;
@@ -198,7 +198,7 @@ Ook de macht van de senaat was niet eeuwig. Caesar nam de macht over. Hoe deed h
 Hij veroverde &lt;b&gt;Gallië&lt;/b&gt; en verdeelde zijn &lt;b&gt;buit&lt;/b&gt; onder zijn leger. Daarom gingen ze hem steunen in plaats van de senaat.
 
 Ga verder naar de opdrachten over [[oorzaak en gevolg|v6]].
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="v6" tags="" position="353.5,619.5" size="100,100">&lt;h2&gt;Oorzaak en gevolg&lt;/h2&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="v6" tags="" position="352.5,620.5" size="100,100">&lt;h2&gt;Oorzaak en gevolg&lt;/h2&gt;
 Deze opdracht hoort bij bladzijde 82 en 83 uit je tekstboek.
 
 Let op! Je kunt pas verder als je alle opgaven achter elkaar goed hebt gemaakt.
@@ -239,7 +239,7 @@ Helaas $naam. Probeer het [[Opnieuw|v6]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="7" name="v7" tags="" position="174.5,610.5" size="100,100">&lt;h1&gt;De Romeinse samenleving&lt;/h1&gt;
+</tw-passagedata><tw-passagedata pid="7" name="v7" tags="" position="173.5,611.5" size="100,100">&lt;h1&gt;De Romeinse samenleving&lt;/h1&gt;
 Gebruik p. 84 t/m 86 voor de volgende vragen.
 
 Bekijk de plaatjes hieronder. Welk &#39;begrip&#39; wordt uitgebeeld met deze twee plaatjes samen? Let op! Schrijf het antwoord precies zo op, zoals het in het boek staat!
@@ -251,7 +251,7 @@ De bevolking wordt van voedsel voorzien
 
 &lt;img src=http://www.geschiedenisdc.nl/klas1/4.%20De%20Romeinen/afbeeldingen%20romeinen/Gladiatoren4.jpg height=&quot;200&quot; width=&quot;200&quot;&gt;
 Gladiatoren vechten in de arena
-</tw-passagedata><tw-passagedata pid="8" name="v8" tags="" position="184,737.5" size="100,100">&lt;&lt;if $v7.includes(&quot;brood&quot;) and $v7.includes(&quot;spelen&quot;)&gt;&gt;
+</tw-passagedata><tw-passagedata pid="8" name="v8" tags="" position="183,738.5" size="100,100">&lt;&lt;if $v7.includes(&quot;rood&quot;) and $v7.includes(&quot;pelen&quot;)&gt;&gt;
 De Romeinse keizers gaven de arme Romeinen &#39;brood en spelen&#39;.
 
 De gladiatoren waren soms heel populair. Toch stonden ze heel erg laag op de sociale piramide. Dat blijkt uit de zin &quot;Ave caesar, mortituri te salutant&quot;.
@@ -266,7 +266,7 @@ Hoe kun je aan die zin zien, dat de gladiatoren heel laag op de sociale piramide
 &lt;&lt;else&gt;&gt;
 Helaas. Probeer het [[opnieuw|v7]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="v9" tags="" position="356,741.5" size="100,100">&lt;&lt;if $v8 === 0&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="v9" tags="" position="355,742.5" size="100,100">&lt;&lt;if $v8 === 0&gt;&gt;
 Helaas, dat is niet goed. Probeer het [[opnieuw|v8]].&lt;&lt;set $fout = $fout + 1&gt;&gt;
 &lt;&lt;else&gt;&gt;
 De zin betekent, dat ze voor de keizer gaan sterven. Het waren namelijk &lt;b&gt;slaven&lt;/b&gt;.
@@ -280,7 +280,7 @@ Hoe haalden de handelaren het graan naar Rome?
 [[Vanuit|v10][$v9 = 1]] Egypte en Sicilië werd het graan van Ostia en de Tiber naar Rome gebracht.
 [[Vanuit|v10][$v9 = 0]] Sicilië en Arabië werd het graan via Ostia naar Rome gebracht.
 &lt;&lt;/if&gt;&gt;
-&lt;img src=&quot;https://images1.persgroep.net/rcs/bXqajwQ0DXfJikt0uc5LaYAVvyQ/diocontent/70318297/_crop/0/0/817/542/_fitwidth/581?appId=e9b4e2a1869038ffcaf318a6d1463b0b&amp;quality=0.8&quot;&gt;</tw-passagedata><tw-passagedata pid="10" name="v10" tags="" position="488,758.5" size="100,100">&lt;&lt;if $v9 === 1&gt;&gt;
+&lt;img src=&quot;https://images1.persgroep.net/rcs/bXqajwQ0DXfJikt0uc5LaYAVvyQ/diocontent/70318297/_crop/0/0/817/542/_fitwidth/581?appId=e9b4e2a1869038ffcaf318a6d1463b0b&amp;quality=0.8&quot;&gt;</tw-passagedata><tw-passagedata pid="10" name="v10" tags="" position="487,759.5" size="100,100">&lt;&lt;if $v9 === 1&gt;&gt;
 Vanuit Egypte en Sicilië werd het graan door &lt;b&gt;handelaren&lt;/b&gt; van Ostia en de Tiber naar Rome gebracht.
 
 De gewone boeren waren om nog een andere reden erg belangrijk. Zij werden steeds belangrijker in het leger. Ze waren de belangrijkste soldaten. Tot overmaat van ramp, werd hun land verwoest door Hannibal of tijdens de vele burgeroorlogen.
@@ -293,7 +293,7 @@ Zij trokken naar &lt;&lt;textbox &quot;$rome&quot; &quot;&quot; &quot;v11&quot;&
 &lt;&lt;else&gt;&gt;
 Helaas, dat was niet goed. Probeer het [[opnieuw|v9]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="v11" tags="" position="633.5,741.5" size="100,100">&lt;&lt;if $rome.includes(&quot;ome&quot;) or $rome.includes(&quot;stad&quot;)&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="v11" tags="" position="632.5,742.5" size="100,100">&lt;&lt;if $rome.includes(&quot;ome&quot;) or $rome.includes(&quot;tad&quot;)&gt;&gt;
 De gewone boeren waren om nog een andere reden erg belangrijk. Zij werden steeds belangrijker in het leger. Ze waren de belangrijkste soldaten. Tot overmaat van ramp, werd hun land verwoest door Hannibal of tijdens de vele burgeroorlogen.
 
 Vanaf de 3e eeuw trokken veel boeren &lt;b&gt;naar Rome&lt;/b&gt;. Ze behoorden daar tot het proletariaat. Dat waren de armen.
@@ -305,7 +305,7 @@ Ga [[verder|v12]] naar de opgaven bij paragraaf 4.3 De cultuur van het rijk.
 &lt;&lt;/if&gt;&gt;
 &lt;img src=&quot;http://www.ethesis.net/perremans/0000/standen/images/standen.jpg&quot; height=&quot;400&quot;&gt;
 
-</tw-passagedata><tw-passagedata pid="12" name="v12" tags="" position="633.5,892.5" size="100,100">&lt;h1&gt;4.3 De cultuur van het rijk&lt;/h1&gt;
+</tw-passagedata><tw-passagedata pid="12" name="v12" tags="" position="632.5,893.5" size="100,100">&lt;h1&gt;4.3 De cultuur van het rijk&lt;/h1&gt;
 Gebruik voor de volgende opgaven p. 87 t/m 89.
 &lt;h2&gt;Burgerrecht&lt;/h2&gt;
 &lt;img src=&quot;http://www.psammos.nl/Image/senaat02.jpg&quot;&gt;
@@ -316,7 +316,7 @@ Wat zou er nu kunnen gebeuren?
 Er komt een [[rechtzaak|v13][$burgerrechten = 0]] waarin Julius gelijk, omdat Antonius maar een arme proletariër is.
 Julius laat Antonius [[opsluiten|v13][$burgerrechten = 0]] door één van zijn vrienden in de senaat.
 Omdat Julius en Antonius beiden [[burgerrechten|v13][$burgerrechten = 1]] hebben, komt er een proces waarbij ze allebei kans hebben om te winnen.
-Een rechter doet onderzoek en er wordt een [[jury|v13][$burgerrechten = 0]] aangewezen om te beslissen wie er schuldig is.</tw-passagedata><tw-passagedata pid="13" name="v13" tags="" position="484.5,896.5" size="100,100">&lt;&lt;if $burgerrechten === 1&gt;&gt;
+Een rechter doet onderzoek en er wordt een [[jury|v13][$burgerrechten = 0]] aangewezen om te beslissen wie er schuldig is.</tw-passagedata><tw-passagedata pid="13" name="v13" tags="" position="483.5,897.5" size="100,100">&lt;&lt;if $burgerrechten === 1&gt;&gt;
 Omdat Julius en Antonius beiden &lt;b&gt;burgerrechten&lt;/b&gt; hebben, komt er een proces waarbij ze allebei kans hebben om te winnen.
 
 Overigens gebruikten de Romeinen soms wel een jury om te bepalen of iemand schuldig was, maar dat was alleen als iemand de &lt;b&gt;wet&lt;/b&gt; had overtreden en dus een straf moest krijgen. In dit voorbeeld was er alleen een &lt;b&gt;conflict&lt;/b&gt; tussen twee burgers onderling. Dan besliste een rechter gewoon zelf.
@@ -329,7 +329,7 @@ Hier is de oppergod van de Romeinen afgebeeld. Hoe heette hij?
 &lt;&lt;else&gt;&gt;
 Helaas. Dat was niet goed. Probeer het [[opnieuw|v12]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="v14" tags="" position="345.5,887.8636474609375" size="100,100">&lt;&lt;if $jupiter.includes(&quot;upiter&quot;)&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="v14" tags="" position="344.5,888.8636474609375" size="100,100">&lt;&lt;if $jupiter.includes(&quot;upiter&quot;)&gt;&gt;
 	De Romeinse oppergod heette Jupiter. Andere bekende goden zijn Mars (oorlog), Venus (liefde) en Mercurius (handel). Door het hele rijk werden tempels gebouwd om hen te eren. De Romeinse goden waren eigenlijk afgekeken van de Griekse goden. Jupiter was Zeus. Mars was Ares, Venus was Aphrodite en Mercurius was Hermes. De Romeinen keken meer af van de Grieken. Zo ontstond een mengcultuur: de &lt;b&gt;Grieks-Romeinse cultuur&lt;/b&gt;. Deze cultuur werd door het hele rijk verspreid. Dit heet &lt;b&gt;romanisering&lt;/b&gt;.
 
 Een voorbeeld van de vermenging van de culturen is de filosofie. Romeinse filosofen namen veel Griekse ideeën over. Voorbeelden hiervan zijn:
@@ -342,7 +342,7 @@ Ten slotte zie je de Griekse invloed in de bouwkunst. De Romeinen lieten water n
 &lt;&lt;else&gt;&gt;
 	Helaas. Dat was niet goed. Probeer het [[opnieuw|v13]].
 	&lt;&lt;set $fout = $fout + 1&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="v15" tags="" position="198.5,879.0454711914062" size="100,100">&lt;&lt;if $aquaduct === &quot;aquaduct&quot;&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="v15" tags="" position="197.5,880.0454711914062" size="100,100">&lt;&lt;if $aquaduct.includes(&quot;quaduct&quot;)&gt;&gt;
 Aqua betekent water dus dit is een &lt;b&gt;aquaduct&lt;/b&gt;.
 
 De Griekse invloed op de Romeinse cultuur is dus te zien in de:
@@ -355,7 +355,7 @@ Ga [[verder|v16]] met de laatste paragraaf: 4.4 De opkomst van het christendom
 Helaas. Probeer het [[opnieuw|v14]].
 &lt;&lt;set $fout = $fout + 1&gt;&gt;
 &lt;&lt;/if&gt;&gt;
-&lt;&lt;nobr&gt;&gt;&lt;&lt;set $a2&gt;&gt;&lt;&lt;set $a3&gt;&gt;&lt;&lt;set $a4&gt;&gt;&lt;&lt;set $a5&gt;&gt;&lt;&lt;set $a6&gt;&gt;&lt;&lt;set $a7&gt;&gt;&lt;&lt;set $a8&gt;&gt;&lt;&lt;set $a9&gt;&gt;&lt;&lt;set $a10&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="16" name="v16" tags="" position="197.5,1029.0454711914062" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if $a1 === 0&gt;&gt;&lt;&lt;set $a2 = 0&gt;&gt;&lt;&lt;set $a3 = 0&gt;&gt;&lt;&lt;set $a4 = 0&gt;&gt;&lt;&lt;set $a5 = 0&gt;&gt;&lt;&lt;set $a6 = 0&gt;&gt;&lt;&lt;set $a7 = 0&gt;&gt;&lt;&lt;set $a8 = 0&gt;&gt;&lt;&lt;set $a9 = 0&gt;&gt;&lt;&lt;set $a10 = 0&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+&lt;&lt;nobr&gt;&gt;&lt;&lt;set $a2&gt;&gt;&lt;&lt;set $a3&gt;&gt;&lt;&lt;set $a4&gt;&gt;&lt;&lt;set $a5&gt;&gt;&lt;&lt;set $a6&gt;&gt;&lt;&lt;set $a7&gt;&gt;&lt;&lt;set $a8&gt;&gt;&lt;&lt;set $a9&gt;&gt;&lt;&lt;set $a10&gt;&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="16" name="v16" tags="" position="196.5,1030.0454711914062" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;if $a1 === 0&gt;&gt;&lt;&lt;set $a2 = 0&gt;&gt;&lt;&lt;set $a3 = 0&gt;&gt;&lt;&lt;set $a4 = 0&gt;&gt;&lt;&lt;set $a5 = 0&gt;&gt;&lt;&lt;set $a6 = 0&gt;&gt;&lt;&lt;set $a7 = 0&gt;&gt;&lt;&lt;set $a8 = 0&gt;&gt;&lt;&lt;set $a9 = 0&gt;&gt;&lt;&lt;set $a10 = 0&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 &lt;h1&gt;De opkomst van het christendom&lt;/h1&gt;
 Zet de gebeurtenissen in de juiste volgorde.
 &lt;&lt;if $a1 === 0 or $a1 === undefined&gt;&gt;Begin bij de gebeurtenis, die het langst geleden plaatsvond. Dat is: &lt;b&gt;Romeinen veroveren Judea.&lt;/b&gt;&lt;&lt;/if&gt;&gt;
@@ -473,8 +473,8 @@ Je zou deze tekst kunnen gebruiken als een soort samenvatting van paragraaf 4. J
 &lt;&lt;/nobr&gt;&gt;
 &lt;&lt;if $a10 &gt; 0&gt;&gt;
 	Klik [[hier|v17]] om te zien hoe je het hebt gedaan.
-&lt;&lt;if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="17" name="v0" tags="" position="171,340" size="100,100">Deze site is gemaakt voor de toets over paragraaf 1 t/m 4 van het hoofdstuk Romeinen. De bedoeling is, dat het je helpt om nog eens op een geinige manier door het hoofdstuk te bladeren.
+&lt;&lt;/if&gt;&gt;
+</tw-passagedata><tw-passagedata pid="17" name="v0" tags="" position="170,341" size="100,100">Deze site is gemaakt voor de toets over paragraaf 1 t/m 4 van het hoofdstuk Romeinen. De bedoeling is, dat het je helpt om nog eens op een geinige manier door het hoofdstuk te bladeren.
 
 Het is wel belangrijk, dat &lt;b&gt;&lt;span style=&quot;background: linear-gradient(#66b3ff, #EEE8AA, #66b3ff)&quot;&gt;je alles LEEST&lt;/span&gt;!&lt;/b&gt; De vragen zijn natuurlijk niet hetzelfde als in de toets, maar deze hele site gaat wel over dingen, die ook voor de toets van belang zijn.
 
@@ -482,7 +482,7 @@ Hoe beter je het doet, hoe hoger je status aan het einde zal zijn.
 
 Klik [[hier|v1]] om te beginnen.
 
-&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Europa60AD.jpeg/500px-Europa60AD.jpeg&quot;&gt;</tw-passagedata><tw-passagedata pid="18" name="v17" tags="" position="345.5,1034.0454711914062" size="100,100">&lt;&lt;if $fout &gt; 5&gt;&gt;
+&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Europa60AD.jpeg/500px-Europa60AD.jpeg&quot;&gt;</tw-passagedata><tw-passagedata pid="18" name="v17" tags="" position="344.5,1035.0454711914062" size="100,100">&lt;&lt;if $fout &gt; 5&gt;&gt;
 	Je hebt meer dan 5 fouten gemaakt. De keizer is nog niet tevreden.
 	
 	Probeer het nog eens.
@@ -514,7 +514,7 @@ Klik [[hier|v1]] om te beginnen.
 	&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Augustus_Statue.JPG/255px-Augustus_Statue.JPG&quot;&gt;
 &lt;&lt;else&gt;&gt;
 	Je hebt $fout fouten gemaakt. Je de rang van &lt;b&gt;Apollo: god van de kennis&lt;/b&gt; bereikt.
-	&lt;img src=&quot;http://www.theoi.com/image/S5.4Apollon.jpg&quot;&gt;
+	&lt;img src=&quot;http://1.bp.blogspot.com/-mdFsBPMACx4/TZrh_fD7U4I/AAAAAAAAJiA/KEkLBajCa0w/s1600/belvedere_apollo.jpg&quot;&gt;
 &lt;&lt;/if&gt;&gt;
 
 Kijk ook op https://rythoviaan.wordpress.com/category/romeinen/ als je gewoon meer wilt weten over de Romeinen.</tw-passagedata></tw-storydata></div>
