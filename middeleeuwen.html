@@ -319,6 +319,7 @@ Aantal broden dat de mensen dagelijks willen kopen: $vraag
 	&lt;&lt;set $bakkers++&gt;&gt;
 &lt;&lt;elseif $bakkers &gt; 12&gt;&gt;
 	&lt;span style=&quot;color:red&quot;&gt;Er is niemand meer die bakker wil worden! Probeer iets anders.&lt;/span&gt;
+	&lt;&lt;set $bakkers--&gt;&gt;
 &lt;&lt;elseif $broden &gt; 140&gt;&gt;
 	&lt;span style=&quot;color:red&quot;&gt;Opstand in je gilde! De bakkers moeten te hard werken. Probeer iets anders.&lt;/span&gt;
 	&lt;&lt;set $broden = $broden - 10&gt;&gt;
@@ -340,13 +341,13 @@ Aantal bakkers: $bakkers
 Aantal broden dat elke bakker dagelijks maakt: $aantalBroden
 Aantal broden dat de mensen dagelijks willen kopen: $vraag
 &lt;&lt;if $prijs != 10&gt;&gt;
-[[A|p4][$bakkers = $bakkers +1]] Ik wil een nieuw bakker opleiden.
-[[B|p4][$bakkers--]] Ik wil dat een bakker naar een andere stad gaat.
+[[Ik wil |p4][$bakkers = $bakkers +1]] een nieuw bakker opleiden.
+[[Ik wil |p4][$bakkers--]] dat een bakker naar een andere stad gaat.
 
-[[C|p4][$broden = $broden + 10]] Ik wil dat elke bakker dagelijks meer brood gaat bakken.
-[[D|p4][$broden = $broden - 10]] Ik wil dat elke bakker dagelijks minder brood gaat bakken.
+[[Ik wil |p4][$broden = $broden + 10]] dat elke bakker dagelijks meer brood gaat bakken.
+[[Ik wil |p4][$broden = $broden - 10]] dat elke bakker dagelijks minder brood gaat bakken.
 
-[[E|p4][$vraag = $vraag + 200]] Ik wil dat de bakkers beter hun best gaan doen, zodat het brood lekkerder wordt en mensen het meer willen kopen.
+[[Ik wil |p4][$vraag = $vraag + 200]] dat de bakkers beter hun best gaan doen, zodat het brood lekkerder wordt en mensen het meer willen kopen.
 &lt;&lt;else&gt;&gt;
 &lt;&lt;if $p4fout === 0&gt;&gt;
 Vraag en aanbod zijn in balans. Iedereen is tevreden. De bevolking heeft genoeg goed brood en de bakkers kunnen allemaal genoeg verdienen.
